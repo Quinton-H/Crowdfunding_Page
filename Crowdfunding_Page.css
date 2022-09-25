@@ -1,3 +1,257 @@
 body {
+    width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.body-container {
+    text-align: center;
+    width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.header-box {
+    background-image: url("keith-kasaija-LPG2TRV3lwQ-unsplash.jpg");
+    background-size: cover;
+    height: 220px;
+    color: white;
+    z-index: -1;
+    position: relative;
+}
+
+.top-h1 {
+    margin-top: 0px;
+    padding-left: 25px;
+    padding-top: 25px;
+    display: inline-block;
+    width: 400px;
+}
+
+.menu {
+    width: 30px;
+}
+
+/* first two h1's */
+
+.box {
+    border: 1px solid rgba(128, 128, 128, 0.212);
+    border-radius: 10px;
+    width: 400px;
+}
+
+.first-container {
+    margin-bottom: 25px;
+    margin-top: -20px;
+    height: 250px;
+    background-color: white;
+    z-index: 2;
+}
+
+.first-container p {
+    width: 300px;
+    margin-left: 50px;
+    /* padding-bottom: 10px; */
+}
+
+.first-head {
+    margin-bottom: 0px;
+}
+
+.second-head {
+    margin-top: 0px;
+}
+
+.bookmark {
+    width: 40px;
+    height: 40px;
+    z-index: 2;
+}
+
+.black-button {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: 0px solid #fff;
+    background-color: black;
+}
+
+.second-container {
+    margin-bottom: 25px;
+}
+
+.bar {
+    background-color: #32a8a0;
+    border: 0px solid #fff;
+    border-radius: 10px 0px 0px 10px;
+    width: 190px;
+    height: 10px;
+    margin-bottom: 15px;
+}
+
+.bar-1 {
+    background-color: #c5d9d9;
+    border: 0px solid #fff;
+    border-radius: 0px 10px 10px 0px;
+    width: 100px;
+    height: 10px;
+    margin-bottom: 15px;
+}
+
+.third-container {
     
+}
+
+.about {
+    text-align: left;
+    padding: 20px;
+}
+
+.blue {
+    background-color: #32a8a0;
+    color: white;
+    width: 160px;
+    padding: 15px;
+    border-radius: 20px;
+    border: 0px;
+    font-size: 15px;;
+}
+
+.turquoise {
+    color: #32a8a0;
+}
+
+hr {
+    width: 100px;
+    background-color: gray;
+}
+
+.inner {
+    margin-bottom: 25px;
+    text-align: left;
+    width: 300px;
+    height: 300px;
+    margin-left: 23px;
+}
+
+.bamboo {
+    padding: 20px;
+}
+
+.black {
+    padding: 20px;
+}
+
+.mahogany {
+    padding: 20px;
+    color: gray;
+}
+
+span {
+    font-size: 20px;
+    color: gray;
+}
+
+@media screen and (min-width: 768px) {
+    body {
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+    .body-container {
+        text-align: center;
+        width: 800px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .box {
+        border: 1px solid rgba(128, 128, 128, 0.212);
+        border-radius: 10px;
+        width: 650px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .first-container {
+        margin-bottom: 25px;
+        margin-top: -20px;
+        height: 250px;
+        background-color: white;
+        z-index: 2;
+    }
+
+    .first-container p {
+        width: 300px;
+        margin-left: 175px;
+        padding-bottom: 10px;
+    }
+
+    .second-container {
+        
+    }
+
+    .flex {
+        display: flex;
+        width: 550px;
+        margin-left: 40px;
+    }
+
+    .mini-flex {
+        display: flex;
+        flex-direction: column;
+    }
+
+    hr {
+        width: 2px;
+        border-radius: 5px 5px 5px 5px;
+        background-color: gray;
+    }
+
+    .third-container {
+        width: 650px;
+    }
+
+    .desk-h3 {
+        width: 500px;
+        margin-bottom: 0px;
+        display: inline;
+        padding-right: 240px;
+    }
+
+    .desk-h3-2 {
+        width: 500px;
+        margin-bottom: 0px;
+        display: inline;
+        padding-right: 200px;
+    }
+
+    .desk-h3-3 {
+        width: 500px;
+        margin-bottom: 0px;
+        display: inline;
+        padding-right: 140px;
+    }
+
+    .turquoise {
+        margin-top: 0px;
+        width: 200px;
+        display: inline;
+    }
+
+    .button-line {
+        margin-bottom: 0px;
+        width: 300px;
+        display: inline;
+        padding-right: 270px;
+    }
+
+    .inner {
+        margin-bottom: 25px;
+        text-align: left;
+        width: 520px;
+        height: 200px;
+        margin-left: 40px;
+    }
 }
